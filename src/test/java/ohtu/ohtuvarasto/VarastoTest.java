@@ -24,7 +24,7 @@ public class VarastoTest {
 
     @Test
     public void josUudenVarastonAlkusaldoOnAnnettuSeAsetetaanOikeinKonstruktorissa() {
-        assertEquals(6, varastoAlkusaldolla.getSaldo(), vertailuTarkkuus);
+        assertEquals(5, varastoAlkusaldolla.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
